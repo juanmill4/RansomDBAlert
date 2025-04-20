@@ -35,10 +35,13 @@ Required for advanced multimodal document analysis.
 -   **Repository**: [MiniCPM GitHub](https://github.com/OpenBMB/MiniCPM)
 
 Make sure these services are running and properly configured before proceeding.
+
+## Installation
+
 Clone this repository:
 
 ```bash
 git clone <repository_URL>
-cd <repository_directory> bash```
+cd <repository_directory> ```
 
 Install required dependencies:
