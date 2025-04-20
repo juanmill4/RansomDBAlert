@@ -42,8 +42,8 @@ Make sure these services are running and properly configured before proceeding.
 Clone this repository:
 
 ```bash
-git clone <repository_URL>
-cd <repository_directory>
+git clone [<repository_URL>](https://github.com/juanmill4/RansomDBAlert.git)
+cd RansomDBAlert/core
 ```
 
 Install required dependencies:
