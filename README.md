@@ -3,7 +3,8 @@ An Advanced tool to Extract Personally Identifiable Information (PII) of Ransomw
 
 ## Introduction
 
-This tool is specifically designed to process ransomware leaks and extract sensitive or PII data using advanced OCR methods, face detection using YOLOv11 with a multimodal language model (MLLM) analysis. Its goal is to quickly identify exposed personal information following a leak.
+This tool is specifically designed to process ransomware leaks and extract sensitive or PII data using advanced OCR methods, faces/Id cards/CV/Passports/Driver-license detection using YOLOv11 with a multimodal language model (MLLM) analysis. Its goal is to quickly identify exposed personal information following a leak.If you want to easily verify whether you or your organization have been victims of a leak, visit our public platform:
+👉 [Have I been Ransomed?](https://haveibeenransom.com)
 
 ## Prerequisites
 
@@ -46,3 +47,27 @@ cd <repository_directory>
 ```
 
 Install required dependencies:
+```bash
+pip3 install -r requirements.txt
+```
+## Usage
+
+Download the ransomware leak you want to analyze and place it in a specific directory.
+
+Run the main script using:
+```bash
+python process_all.py <directory_containing_leak>
+```
+This command will start the complete processing workflow, including:
+
+- Automatic metadata extraction
+- Document conversion and analysis
+- Text and image extraction
+- Id cards/Passports detection
+- Indexing all gathered information into Elasticsearch
+
+## Support
+
+For support or additional questions about the use or setup of the tool, contact us at:
+
+-   **Email**: [juanma@darkeye.io](mailto:juanma@darkeye.io)
