@@ -42,6 +42,7 @@ Clone this repository:
 
 ```bash
 git clone <repository_URL>
-cd <repository_directory> ```
+cd <repository_directory>
+```
 
 Install required dependencies:
