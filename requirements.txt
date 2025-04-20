@@ -1,0 +1,15 @@
+elasticsearch
+urllib3
+numpy
+pandas
+opencv-python
+Pillow
+json
+pymupdf
+python-docx
+textract
+torch
+torchvision
+ultralytics
+glob2
+requests
