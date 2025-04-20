@@ -46,7 +46,7 @@ Make sure these services are running and properly configured before proceeding.
 Clone this repository:
 
 ```bash
-git clone [<repository_URL>](https://github.com/juanmill4/RansomDBAlert.git)
+git clone https://github.com/juanmill4/RansomDBAlert.git
 cd RansomDBAlert/core
 ```
 
